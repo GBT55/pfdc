@@ -1,0 +1,49 @@
+body{
+    background-image:url(./img/font.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+ul.galeria li{
+    float:left;
+    margin:0 20px ;
+    list-style: none;
+}
+
+ul.galeria li a img{
+    float: left;
+    width: 300px;
+}
+ul.galeria li a:hover img{
+    transform: scale(1.5);
+    box-shadow:4px 4px 10px  rgb(245, 245, 245);
+}
+div{
+    margin-top: 60px;
+    align-content: center;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: rgb(255, 1, 1);
+    border: 1px solid;
+    margin-left: 39%;
+    margin-right: 43%;
+    object-position: center;
+
+}
+
+ul.galeria_2 li{
+    float:left;
+    margin:0 60px ;
+    list-style: none;
+}
+
+ul.galeria_2 li a img{
+    float: left;
+    width: 300px;
+}
+ul.galeria_2 li a:hover img{
+    transform: scale(1.5);
+    box-shadow:4px 4px 10px  rgb(245, 245, 245);
+}
+
