@@ -1,0 +1,473 @@
+# Translation of Plugins - Foyer &#8211; Digital Signage for WordPress - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Foyer &#8211; Digital Signage for WordPress - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-08 21:32:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Foyer &#8211; Digital Signage for WordPress - Development (trunk)\n"
+
+#: admin/class-foyer-admin-slide-background-image.php:65
+msgid "For the best results use an image that is at least 1920 x 1080 pixels (landscape), or 1080 x 1920 pixels (portrait)."
+msgstr "Para obtener los mejores resultados, utilice una imagen de al menos 1.920 x 1.080 píxeles (horizontal) o 1.080 x 1.920 píxeles (vertical)."
+
+#: admin/class-foyer-admin.php:79 admin/class-foyer-admin.php:80
+msgctxt "plugin name in admin menu"
+msgid "Foyer"
+msgstr "Foyer"
+
+#: admin/class-foyer-admin-slide-background-video.php:133
+#: admin/class-foyer-admin-slide-background-html5-video.php:142
+msgid "Yes, enable sound for this video."
+msgstr "Sí, habilitar sonido para este vídeo."
+
+#: includes/class-foyer-slide-formats.php:235
+msgctxt "slide-format"
+msgid "Text"
+msgstr "Texto"
+
+#: admin/class-foyer-admin-slide.php:54
+msgid "Slide format, background"
+msgstr "Formato de diapositiva, fondo"
+
+#: admin/class-foyer-admin-slide-background-video.php:128
+#: admin/class-foyer-admin-slide-background-html5-video.php:137
+msgid "Enable sound?"
+msgstr "¿Habilitar sonido?"
+
+#: admin/class-foyer-admin-slide-background-video.php:92
+msgid "Not a valid YouTube video URL, eg. %s"
+msgstr "No es una URL de vídeo de YouTube válida, p. ej. %s"
+
+#: includes/class-foyer-slide-formats.php:236
+msgid "Displays some text."
+msgstr "Muestra un texto."
+
+#: includes/class-foyer-slide-formats.php:132
+msgid "Displays title, date and content of a post."
+msgstr "Muestra el título, la fecha y el contenido de un mensaje."
+
+#: admin/class-foyer-admin-slide-format-text.php:76
+msgid "Content"
+msgstr "Contenido"
+
+#: admin/class-foyer-admin-slide-format-text.php:68
+msgid "Subtitle"
+msgstr "Subtítulo"
+
+#: admin/class-foyer-admin-slide-format-text.php:60
+msgid "Title"
+msgstr "Título"
+
+#: admin/class-foyer-admin-slide-format-text.php:52
+msgid "Pre-title"
+msgstr "Título previo"
+
+#: admin/class-foyer-admin-slide-format-recent-posts.php:107
+#: admin/class-foyer-admin-slide-format-post.php:91
+msgid "Yes, display the featured image."
+msgstr "Sí, mostrar la imagen destacada."
+
+#: admin/class-foyer-admin-slide-format-recent-posts.php:102
+#: admin/class-foyer-admin-slide-format-post.php:86
+msgid "Display featured image?"
+msgstr "¿Mostrar la imagen destacada?"
+
+#: admin/class-foyer-admin-slide-format-recent-posts.php:112
+#: admin/class-foyer-admin-slide-format-post.php:96
+msgid "Use excerpt?"
+msgstr "¿Usar extractos?"
+
+#: includes/class-foyer-slide-formats.php:170
+msgid "Displays title and details of an event, with its image as default background."
+msgstr "Muestra el título y los detalles de un evento seleccionado, con esta imagen como fondo predeterminado."
+
+#: includes/class-foyer-slide-formats.php:67
+msgid "Displays a web page to your liking."
+msgstr "Muestra una página web a su gusto."
+
+#: includes/class-foyer-slide-formats.php:37
+msgctxt "slide-format"
+msgid "Default"
+msgstr "Predeterminado"
+
+#: includes/class-foyer-slide-formats.php:100
+msgid "Displays a slide for each page in the uploaded PDF."
+msgstr "Muestra una diapositiva por cada página del PDF subido."
+
+#: includes/class-foyer-slide-formats.php:38
+msgid "Displays a background only."
+msgstr "Muestra sólo un fondo."
+
+#: includes/class-foyer-slide-backgrounds.php:42
+msgctxt "slide-background"
+msgid "Video"
+msgstr "Vídeo"
+
+#: includes/class-foyer-slide-backgrounds.php:60
+msgctxt "slide-background"
+msgid "Image"
+msgstr "Imagen"
+
+#: includes/class-foyer-slide-backgrounds.php:26
+msgid "Displays the default background for the chosen slide format, if any, or no background."
+msgstr "Muestra el fondo predeterminado para el formato de diapositiva seleccionado si lo hay, o ningún fondo."
+
+#: includes/class-foyer-slide-backgrounds.php:25
+msgctxt "slide-background"
+msgid "Default / none"
+msgstr "Predeterminado / ninguno"
+
+#: admin/class-foyer-admin-slide.php:308 admin/class-foyer-admin-slide.php:336
+msgid "No settings."
+msgstr "Sin ajustes."
+
+#: admin/class-foyer-admin-channel.php:398
+#: admin/class-foyer-admin-slide.php:281 admin/class-foyer-admin-slide.php:327
+msgid "Background"
+msgstr "Fondo"
+
+#: admin/class-foyer-admin-channel.php:394
+#: admin/class-foyer-admin-slide.php:269 admin/class-foyer-admin-slide.php:299
+msgid "Format"
+msgstr "Formato"
+
+#: admin/class-foyer-admin-slide.php:28
+msgid "Slide content"
+msgstr "Contenido de la diapositiva"
+
+#: admin/class-foyer-admin-slide-format-pdf.php:157
+msgid "Your WordPress version lacks support for PDF processing."
+msgstr "Su versión de WordPress carece de soporte para el procesamiento de PDF."
+
+#: admin/class-foyer-admin-slide-format-pdf.php:112
+msgid "Error message:"
+msgstr "Mensaje de error:"
+
+#: admin/class-foyer-admin-slide-format-pdf.php:111
+msgid "Make sure you are on WordPress 4.7 or higher, and your webhosting has Imagick and Ghostscript installed."
+msgstr "Asegúrese de que usa WordPress 4.7 o superior, y su hosting tiene instalado Imagick y Ghostscript."
+
+#: admin/class-foyer-admin-slide-format-pdf.php:109
+msgid "Processing PDF pages failed."
+msgstr "Falló el procesamiento de páginas PDF."
+
+#: admin/class-foyer-admin-display.php:165
+#: admin/class-foyer-admin-display.php:182
+msgid "None"
+msgstr "Ninguno"
+
+#: includes/class-foyer-slide-formats.php:99
+msgctxt "slide-format"
+msgid "PDF"
+msgstr "PDF"
+
+#: includes/class-foyer-slide-formats.php:66
+msgctxt "slide-format"
+msgid "External web page"
+msgstr "Página web externa"
+
+#: admin/class-foyer-admin-slide-format-production.php:55
+#: includes/class-foyer-slide-formats.php:169
+msgctxt "slide-format"
+msgid "Event"
+msgstr "Evento"
+
+#: admin/class-foyer-admin-slide-format-iframe.php:51
+msgid "Be sure to use an https URL"
+msgstr "Asegúrese de usar una URL https"
+
+#: admin/class-foyer-admin-slide-format-iframe.php:45
+msgid "Web page URL"
+msgstr "Página web URL"
+
+#: admin/class-foyer-admin-slide-format-iframe.php:39
+msgid "https://..."
+msgstr "https://..."
+
+#: admin/class-foyer-admin-channel.php:439
+msgid "No transition"
+msgstr "Sin transición"
+
+#: admin/class-foyer-admin-slide-background-video.php:138
+#: admin/class-foyer-admin-slide-background-html5-video.php:147
+msgid "Preview"
+msgstr "Previsualizar"
+
+#: admin/class-foyer-admin-slide-background-video.php:123
+#: admin/class-foyer-admin-slide-background-html5-video.php:132
+msgid "Yes, hold the slide until the end of the video."
+msgstr "Sí, mantenga la diapositiva hasta que vídeo termine."
+
+#: admin/class-foyer-admin-slide-background-video.php:118
+#: admin/class-foyer-admin-slide-background-html5-video.php:127
+msgid "Hold slide until end?"
+msgstr "¿Mantener la diapositiva hasta el final?"
+
+#: admin/class-foyer-admin-slide-background-video.php:108
+#: admin/class-foyer-admin-slide-background-html5-video.php:117
+msgid "End at"
+msgstr "Finalizar en"
+
+#: admin/class-foyer-admin-slide-background-video.php:103
+#: admin/class-foyer-admin-slide-background-video.php:113
+#: admin/class-foyer-admin-slide-background-html5-video.php:112
+#: admin/class-foyer-admin-slide-background-html5-video.php:122
+msgid "seconds"
+msgstr "segundos"
+
+#: admin/class-foyer-admin-slide-background-video.php:98
+#: admin/class-foyer-admin-slide-background-html5-video.php:107
+msgid "Start at"
+msgstr "Comenzar a los"
+
+#: admin/class-foyer-admin-slide-background-video.php:85
+msgid "YouTube video URL"
+msgstr "URL vídeo YouTube"
+
+#. Description of the plugin
+msgid "Create slideshows and show them off on your networked displays."
+msgstr "Cree presentaciones de diapositivas y muéstrelas en sus pantallas en red."
+
+#: includes/class-foyer-image-editor-imagick.php:25
+msgid "Could not read number of pages in image."
+msgstr "No se pudo leer el número de páginas en la imagen."
+
+#: admin/class-foyer-admin-slide-format-pdf.php:285
+msgid "Remove PDF file"
+msgstr "Eliminar archivo PDF"
+
+#: admin/class-foyer-admin-slide-format-pdf.php:276
+msgid "PDF file"
+msgstr "Archivo PDF"
+
+#: admin/class-foyer-admin-slide-format-pdf.php:142
+msgid "Not a PDF file."
+msgstr "No es un archivo PDF"
+
+#. Author of the plugin
+msgid "Menno Luitjes"
+msgstr "Menno Luitjes"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://mennoluitjes.nl"
+msgstr "http://mennoluitjes.nl"
+
+#. Plugin Name of the plugin
+msgid "Foyer - Digital Signage for WordPress"
+msgstr "Vestíbulo - Cartelería Digital para WordPress"
+
+#: includes/class-foyer-setup.php:76
+msgctxt "slide cpt"
+msgid "Edit slide"
+msgstr "Editar diapositiva"
+
+#: includes/class-foyer-setup.php:75
+msgctxt "slide cpt"
+msgid "Add new slide"
+msgstr "Nueva diapositiva"
+
+#: includes/class-foyer-setup.php:74
+msgctxt "slide cpt"
+msgid "View slide"
+msgstr "Ver diapositiva"
+
+#: includes/class-foyer-setup.php:73
+msgctxt "slide cpt"
+msgid "New slide"
+msgstr "Nueva diapositiva"
+
+#: includes/class-foyer-setup.php:72
+msgctxt "slide cpt"
+msgid "Add New"
+msgstr "Añadir nueva"
+
+#: includes/class-foyer-setup.php:55
+msgctxt "channel cpt"
+msgid "Edit channel"
+msgstr "Editar canal"
+
+#: includes/class-foyer-setup.php:54
+msgctxt "channel cpt"
+msgid "Add new channel"
+msgstr "Añadir nuevo canal"
+
+#: includes/class-foyer-setup.php:53
+msgctxt "channel cpt"
+msgid "View channel"
+msgstr "Ver canal"
+
+#: includes/class-foyer-setup.php:52
+msgctxt "channel cpt"
+msgid "New channel"
+msgstr "Nuevo canal"
+
+#: includes/class-foyer-setup.php:51
+msgctxt "channel cpt"
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+#: admin/class-foyer-admin-display.php:46 includes/class-foyer-setup.php:50
+msgctxt "channel cpt"
+msgid "Channel"
+msgstr "Canal"
+
+#: includes/class-foyer-setup.php:49
+msgctxt "channel cpt"
+msgid "Channels"
+msgstr "Canales"
+
+#: includes/class-foyer-setup.php:34
+msgctxt "display cpt"
+msgid "Edit display"
+msgstr "Editar pantalla"
+
+#: includes/class-foyer-setup.php:33
+msgctxt "display cpt"
+msgid "Add new display"
+msgstr "Añadir nueva pantalla"
+
+#: includes/class-foyer-setup.php:32
+msgctxt "display cpt"
+msgid "View display"
+msgstr "Ver pantalla"
+
+#: includes/class-foyer-setup.php:31
+msgctxt "display cpt"
+msgid "New display"
+msgstr "Nueva pantalla"
+
+#: includes/class-foyer-setup.php:30
+msgctxt "display cpt"
+msgid "Add New"
+msgstr "Añadir nueva"
+
+#: includes/class-foyer-setup.php:29
+msgctxt "display cpt"
+msgid "Display"
+msgstr "Pantalla"
+
+#: includes/class-foyer-setup.php:28
+msgctxt "display cpt"
+msgid "Displays"
+msgstr "Pantallas"
+
+#: admin/class-foyer-admin-slide-background-image.php:63
+msgid "Remove image"
+msgstr "Eliminar imagen"
+
+#: admin/class-foyer-admin-slide-background-image.php:54
+msgid "Background image"
+msgstr "Imagen de fondo"
+
+#: admin/class-foyer-admin-slide.php:102
+msgid "Use this image"
+msgstr "Usar esta imagen"
+
+#: admin/class-foyer-admin-slide.php:101
+msgid "Select an image"
+msgstr "Seleccionar una imagen"
+
+#: admin/class-foyer-admin-preview.php:84
+msgid "Portrait"
+msgstr "Vertical"
+
+#: admin/class-foyer-admin-preview.php:83
+msgid "Landscape"
+msgstr "Horizontal"
+
+#: admin/class-foyer-admin-display.php:338
+msgid "Until"
+msgstr "Hasta"
+
+#: admin/class-foyer-admin-display.php:328
+msgid "Show from"
+msgstr "Mostrar desde"
+
+#: admin/class-foyer-admin-display.php:63
+msgid "Schedule temporary channel"
+msgstr "Programar canal provisional"
+
+#: admin/class-foyer-admin-display.php:304
+msgid "Temporary channel"
+msgstr "Canal provisional"
+
+#: admin/class-foyer-admin-display.php:251
+#: admin/class-foyer-admin-display.php:309
+msgid "Select a channel"
+msgstr "Seleccionar un canal"
+
+#: admin/class-foyer-admin-display.php:31
+msgid "Active channel"
+msgstr "Canal activo"
+
+#: admin/class-foyer-admin-display.php:30
+#: admin/class-foyer-admin-display.php:246
+msgid "Default channel"
+msgstr "Canal predeterminado"
+
+#: admin/class-foyer-admin-channel.php:463
+msgid "Are you sure you want to remove this slide from the channel?"
+msgstr "¿Está seguro de que quiere quitar esta diapositiva del canal?"
+
+#: admin/class-foyer-admin-channel.php:438
+msgid "Slide"
+msgstr "Diapositiva"
+
+#: admin/class-foyer-admin-channel.php:437
+msgid "Fade"
+msgstr "Desvanecer"
+
+#: admin/class-foyer-admin-channel.php:407 includes/class-foyer-setup.php:71
+msgctxt "slide cpt"
+msgid "Slide"
+msgstr "Diapositiva"
+
+#: admin/class-foyer-admin-channel.php:370
+msgid "No slides in this channel yet."
+msgstr "Aún no hay diapositivas en este canal."
+
+#: admin/class-foyer-admin-channel.php:319
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "segundo"
+msgstr[1] "segundos"
+
+#: admin/class-foyer-admin-channel.php:267
+msgid "Transition"
+msgstr "Transición"
+
+#: admin/class-foyer-admin-channel.php:208
+msgid "Duration"
+msgstr "Duración"
+
+#: admin/class-foyer-admin-channel.php:193
+#: admin/class-foyer-admin-channel.php:252
+msgid "Default"
+msgstr "Predeterminado"
+
+#: admin/class-foyer-admin-channel.php:157
+msgid "Select a slide"
+msgstr "Seleccionar una diapositiva"
+
+#: admin/class-foyer-admin-channel.php:152
+msgid "Add slide"
+msgstr "Añadir diapositiva"
+
+#: admin/class-foyer-admin-channel.php:105
+msgid "Slideshow settings"
+msgstr "Configuración de la presentación"
+
+#: admin/class-foyer-admin-channel.php:88 includes/class-foyer-setup.php:70
+msgctxt "slide cpt"
+msgid "Slides"
+msgstr "Diapositivas"
+
+#: admin/class-foyer-admin-channel.php:32
+msgid "Number of slides"
+msgstr "Numero de diapositivas"
