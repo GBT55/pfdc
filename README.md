@@ -16,3 +16,7 @@
 - Script startup VPN
 - Script startup Foyer/Pantalla 
 - VNC Server
+- cosas que hacer
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQ4MzE4ODMyNl19
+-->
