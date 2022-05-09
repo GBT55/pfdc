@@ -1,6 +1,6 @@
 # pfdc - INFRAESTRUCTURA
 
-## Server
+## Server ubuntu
 - Docker
     - Wordpress (FOYER) + MariaDB + PHPMyAdmin
 - Nginx
@@ -17,5 +17,5 @@
 - Script startup Foyer/Pantalla 
 - VNC Server
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQzMTgxMDcwXX0=
+eyJoaXN0b3J5IjpbOTkyNzg4OTMzLDc0MzE4MTA3MF19
 -->
