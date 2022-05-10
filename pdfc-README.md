@@ -7,6 +7,8 @@
     - Panel web para la administración 
 - PiVPN server
 - NoVNC client
+- Glances (raw) para comando glances --browser
+
 
 
 ## RPI(s)
@@ -17,5 +19,6 @@
 - Script startup Foyer/Pantalla 
 - VNC Server
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyNzg4OTMzLDc0MzE4MTA3MF19
+eyJoaXN0b3J5IjpbLTc0MjU4NDg0NCw5OTI3ODg5MzMsNzQzMT
+gxMDcwXX0=
 -->
