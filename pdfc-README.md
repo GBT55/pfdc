@@ -8,6 +8,7 @@
 - PiVPN server
 - NoVNC client
 - Glances (raw) para comando glances --browser
+- GUACAMOLE???
 
 
 
@@ -19,6 +20,6 @@
 - Script startup Foyer/Pantalla 
 - VNC Server
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjU4NDg0NCw5OTI3ODg5MzMsNzQzMT
-gxMDcwXX0=
+eyJoaXN0b3J5IjpbMjI2NDk2NDQsLTc0MjU4NDg0NCw5OTI3OD
+g5MzMsNzQzMTgxMDcwXX0=
 -->
