@@ -197,6 +197,19 @@ web_1_rtt_warning=3000
 
 ````
 
+### fs
+
+
+```
+[fs]
+disable=False
+hide=/boot.*,/snap.*,dev*,/wordpress-db,/wordpress-data,/etc/hosts,/wordpress-data,/glances/conf/glances.conf,_olv.conf,_hostname,.*olv.conf,.*hostname
+careful=50
+warning=70
+critical=90
+allow=overlay
+```
+[ports]
 # Rpi
 
 
@@ -205,6 +218,7 @@ web_1_rtt_warning=3000
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTUyMDY2OSwtMjAzMDcwMTk2OSw5Mj
-gyODU5NTMsMTEwMjEzNzY2NSwtNDE0MzQyMjE2XX0=
+eyJoaXN0b3J5IjpbMTA5NjE4OTEwNCwtODIxNTIwNjY5LC0yMD
+MwNzAxOTY5LDkyODI4NTk1MywxMTAyMTM3NjY1LC00MTQzNDIy
+MTZdfQ==
 -->
