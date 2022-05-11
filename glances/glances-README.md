@@ -1,6 +1,7 @@
 Sirve para monitorizar tanto las raspis como el servidor.
 
 Se va a utilizar siempre el mismo *docker-compose.yml*:
+
 ```
 version: '2'
 services:
@@ -24,9 +25,14 @@ services:
 #
 ##docker run -d --name=glances --restart="always" -p 61208-61209:61208-61209 -e GLANCES_OPT="-w" -v /home/guille/Software/glances/glances.conf:/glances/conf/glances.conf -v /var/run/docker.sock:/var/run/docker.sock:ro --pid host nicolargo/glances:3.2.5-full
 ```
-Lo que va a cambiar despues es el *archivo de configuración* llamado **glances.conf**
+```
+docker compose up -d --build
+```
+Lo que va a cambiar después es el *archivo de configuración* llamado **glances.conf**
 
 # Server
+arc
+
 
 
 # Rpi
@@ -37,5 +43,5 @@ Lo que va a cambiar despues es el *archivo de configuración* llamado **glances.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTU1ODQ2NTJdfQ==
+eyJoaXN0b3J5IjpbMTEzOTQxNzY3NF19
 -->
