@@ -31,7 +31,9 @@ docker compose up -d --build
 Lo que va a cambiar después es el *archivo de configuración* llamado **glances.conf**
 
 # Server
-arc
+## archivo glances.conf (por partes)
+> [aqui hay una plantilla del archivo de configuracion por defecto](https://raw.githubusercontent.com/nicolargo/glances/master/conf/glances.conf)
+
 
 
 
@@ -43,5 +45,5 @@ arc
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTQxNzY3NF19
+eyJoaXN0b3J5IjpbLTQxNDM0MjIxNl19
 -->
