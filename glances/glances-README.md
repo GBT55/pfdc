@@ -63,7 +63,7 @@ folder_1_refresh=60
 #folder_4_path=/root
 ```
 ### ports
-Aqui podemos poner los dispositivos que queremos monitorizar por SNMP
+Aqui podemos poner los dispositivos que queremos monitorizar por SNMP, o por puerto si lo especificamos.
 
 ```
 [ports]
@@ -140,6 +140,11 @@ port_5_description=RPI 1 (Planta 3)
 
 port_5_timeout=10
 
+port_6_host=192.168.1.82 
+port_6_port=5900 
+port_6_description=RPI 1 (Planta 3) - VNC Activado 
+port_6_timeout=10
+
   
 
 #port_2_host=www.free.fr
@@ -200,6 +205,6 @@ web_1_rtt_warning=3000
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzY4Nzg0LC0yMDMwNzAxOTY5LDkyOD
-I4NTk1MywxMTAyMTM3NjY1LC00MTQzNDIyMTZdfQ==
+eyJoaXN0b3J5IjpbLTgyMTUyMDY2OSwtMjAzMDcwMTk2OSw5Mj
+gyODU5NTMsMTEwMjEzNzY2NSwtNDE0MzQyMjE2XX0=
 -->
