@@ -24,7 +24,7 @@ services:
 #
 ##docker run -d --name=glances --restart="always" -p 61208-61209:61208-61209 -e GLANCES_OPT="-w" -v /home/guille/Software/glances/glances.conf:/glances/conf/glances.conf -v /var/run/docker.sock:/var/run/docker.sock:ro --pid host nicolargo/glances:3.2.5-full
 ```
-Lo que va a cambiar aqui es el *archivo de configuración* llamado 
+Lo que va a cambiar despues es el *archivo de configuración* llamado **glances.conf**
 
 # Server
 
@@ -37,5 +37,5 @@ Lo que va a cambiar aqui es el *archivo de configuración* llamado
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzc4NTAyXX0=
+eyJoaXN0b3J5IjpbLTExNTU1ODQ2NTJdfQ==
 -->
