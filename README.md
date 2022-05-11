@@ -27,12 +27,13 @@ g5MzMsNzQzMTgxMDcwXX0=
 
 ## Upload to Github
 ### si ya esta creado
+```
 git add .
 git commit -m "razon del Commit"
 git push -u origin master
-
+```
 ### …or create a new repository on the command line
-
+```
 echo "# ssss" >> README.md
 git init
 git add README.md
@@ -40,9 +41,10 @@ git commit -m "first commit"
 git branch -M master
 git remote add origin https://github.com/GBT55/ssss.git
 git push -u origin master
-
+```
 ### …or push an existing repository from the command line
-
+```
 git remote add origin https://github.com/GBT55/ssss.git
 git branch -M master
 git push -u origin master
+```
