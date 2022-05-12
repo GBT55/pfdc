@@ -6,15 +6,15 @@ services:
     restart: always
     pid: host
     volumes:
-      - /home/guille:/home/guille:ro
       - /var/run/docker.sock:/var/run/docker.sock:ro
-      - /home/guille/Software/glances/glances.conf:/glances/conf/glances.conf
-      - /home/guille/Software/sftpgo_docker/home/data/:/sftpgo:ro
+      - /home/grupo/proyecto/docker-ct/wordpress-mdb-pma/carpetacontenedora:/wordpress-data:ro 
+      - /home/grupo/proyecto/docker-ct/wordpress-mdb-pma/data:/wordpress-db:ro#wp folder 
+      - ./glances.conf:/glances/conf/glances.conf
     environment:
       - GLANCES_OPT=-w
     ports:
       - 61208-61209:61208-61209
-    hostname: Raspberry PI 4 de Guille
+    hostname: Ubuntu Server
 
 #Sin docker compose:
 #
