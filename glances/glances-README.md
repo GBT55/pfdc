@@ -35,32 +35,11 @@ docker compose up -d --build
 ### folders
 ```
 [folders]
-
-# Documentation: https://glances.readthedocs.io/en/stable/aoa/folders.html
-disable=False
-# Define a folder list to monitor
-# The list is composed of items (list_#nb <= 10)
-# An item is defined by:
-# * path: absolute path
-# * careful: optional careful threshold (in MB)
-# * warning: optional warning threshold (in MB)
-# * critical: optional critical threshold (in MB)
-# * refresh: interval in second between two refreshs
 folder_1_path=/wordpress
 folder_1_careful=5000
 folder_1_warning=10000
 folder_1_critical=20000
 folder_1_refresh=60
-# folder_2_path=/#
-# folder_2_careful=5000
-# folder_2_warning=10000
-# folder_2_critical=20000
-# folder_2_refresh=60
-#folder_2_path=/home/nicolargo/Videos
-#folder_2_warning=17000
-#folder_2_critical=20000
-#folder_3_path=/nonexisting
-#folder_4_path=/root
 ```
 ### ports
 Aqui podemos poner los dispositivos que queremos monitorizar por SNMP, o por puerto si lo especificamos.
@@ -80,6 +59,7 @@ port_1_timeout=1
 port_2_host=192.168.1.X
 port_2_description=RPI 1 (Planta 1)
 port_2_timeout=1
+
 port_4_host=192.168.1.150
 port_4_description=RPI 1 (Planta 2)
 port_4_timeout=1
@@ -93,9 +73,9 @@ port_6_port=5900
 port_6_description=RPI 1 (Planta 3) - VNC Activado 
 port_6_timeout=10
 
-web_1_url=
-web_1_description=aws maquina
-web_1_rtt_warning=3000
+web_7_url=
+web_7_description=aws maquina
+web_7_rtt_warning=3000
 ```
 
 ### fs
@@ -110,7 +90,12 @@ warning=70
 critical=90
 allow=overlay
 ```
+
+### ports
+```
 [ports]
+```
+
 # Rpi
 
 
@@ -119,7 +104,7 @@ allow=overlay
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTUxODU2NCwxMDk2MTg5MTA0LC04Mj
+eyJoaXN0b3J5IjpbMTkyMTg5NDkzNSwxMDk2MTg5MTA0LC04Mj
 E1MjA2NjksLTIwMzA3MDE5NjksOTI4Mjg1OTUzLDExMDIxMzc2
 NjUsLTQxNDM0MjIxNl19
 -->
