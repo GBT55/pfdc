@@ -13,11 +13,11 @@
 ## 3 - Instalar Nginx
 1. Instalo nginx y el modulo de php
 ``` 
-# sudo apt-get install nginx php-fpm php-curl -y
+ sudo apt-get install nginx php-fpm php-curl -y
 ```
 2. Edito la siguiente configuracion y lo sustituyó por el de abajo 
 ```
-# sudo vi /etc/nginx/sites-available/default
+ sudo vi /etc/nginx/sites-available/default
 ```
 ```
 server {
@@ -46,19 +46,19 @@ server {
 3. Después reinicio los servicios para que los cambios de conf. surgan efecto
 
 ```
-# sudo service nginx restart
-# sudo service php7.4-fpm restart
+ sudo service nginx restart
+ sudo service php7.4-fpm restart
 ```
 
 4. Por ultimo me encargo de subir el script al siguiente directorio
 ```
-# sudo mkdir /usr/share/nginx/www
-# sudo touch /usr/share/nginx/www/index.php
-# sudo chmod -R a+w /usr/share/nginx/www/
+ sudo mkdir /usr/share/nginx/www
+ sudo touch /usr/share/nginx/www/index.php
+ sudo chmod -R a+w /usr/share/nginx/www/
 ```
 De gratis
 ```
-# sudo tail -n 5 /var/log/nginx/error.log
+ sudo tail -n 5 /var/log/nginx/error.log
 ```
 
 
