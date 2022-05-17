@@ -105,7 +105,7 @@ sudo vi /usr/share/nginx/www/index.php
 	$url = 'http://35.180.2.4:8080/wp-json/wp/v2/media/';
 	$ch = curl_init();
 	$username = 'pdfc';
-	$password = 'KVkZ Q48f ztIw hnOT EKvj nC01';
+	$password = 'Pass Word';
 
 	curl_setopt( $ch, CURLOPT_URL, $url );
 	curl_setopt( $ch, CURLOPT_POST, 1 );
