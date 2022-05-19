@@ -1,38 +1,48 @@
-version: '3.3'
+version: '3'
 
 services:
 
-  postgres:
-    container_name: postres-GUAC
-    image: postgres:12.2
+  postgres: # Use postgres/example user/password credentials
+    image: postgres:11-bullseye
+    container_name: postgres
     restart: always
     volumes:
-      - ./init:/docker-entrypoint-initdb.d
-      - ./data:/var/lib/postgresql/data
+      - ./pg-data:/var/lib/postgresql/data
     environment:
-      POSTGRES_USER: guacamole_user
-      POSTGRES_PASSWORD: some_password
-      POSTGRES_DB: guacamole_db
+      POSTGRES_PASSWORD: yourPasswd
+      POSTGRES_USER: yourUser
+
 
   guacd:
-    container_name: guacd-GUAC
-    image: guacamole/guacd:1.3.0
-    restart: always
+    image: linuxserver/guacd:version-1.4.0
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock 
+    container_name: guacd
+    restart: unless-stopped
+    # ports:
+    #   - 4822:4822
+   
 
-  guac:
-    container_name: guac-GUAC
-    image: guacamole/guacamole:1.3.0
+  guacamole:
+    image: maxwaldorf/guacamole:1.4
     restart: always
+    container_name: guacamole
+    volumes:
+     - ./guacamole-data:/config
     ports:
-      - "6060:8080"
-    environment:
-      POSTGRES_HOSTNAME: postgres
-      POSTGRES_DATABASE: guacamole_db
-      POSTGRES_USER: guacamole_user
-      POSTGRES_PASSWORD: some_password
-      GUACD_PORT_4822_TCP_ADDR: guacd
-      GUACD_PORT_4822_TCP_PORT: 4822
-      GUACD_HOSTNAME: guacd
-    depends_on:
-      - postgres
-      - guacd
+      - 9090:8080
+    # environment:
+    #   POSTGRES_HOSTNAME: postgres
+    #   POSTGRES_DATABASE: guacamole_db
+    #   POSTGRES_USER: guacamole_user
+    #   POSTGRES_PASSWORD: yourPasswd
+    #   GUACD_PORT_4822_TCP_ADDR: guacd2
+    #   GUACD_PORT_4822_TCP_PORT: 4822
+    #   GUACD_HOSTNAME: guacd
+    # depends_on:
+    #   - postgres
+    #   - guacd
+
+# volumes:
+#   postgres:
+#     driver: local
