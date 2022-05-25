@@ -10,30 +10,7 @@ instalador/script de docker
 
  ## docker compose file
 ```
-version: '3'
 
-services:
-    db:
-        image: mariadb:10.3.9
-        volumes:
-            - data:/var/lib/mysql
-        environment:
-            - MYSQL_ROOT_PASSWORD=secret
-            - MYSQL_DATABASE=wordpress
-            - MYSQL_USER=manager
-            - MYSQL_PASSWORD=secret
-    web:
-        image: wordpress:5.9
-        depends_on:
-            - db
-        volumes:
-            - ./carpetacontenedora:/var/www/html
-        environment:
-            - WORDPRESS_DB_USER=manager
-            - WORDPRESS_DB_PASSWORD=secret
-            - WORDPRESS_DB_HOST=db
-        ports:
-            - 8080:80
 
     pma:
         depends_on:
@@ -66,5 +43,5 @@ Para consultar  los contenedores corriendo:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQwODk1MTRdfQ==
+eyJoaXN0b3J5IjpbLTk3NDQyMDEwNywtMTk3NDA4OTUxNF19
 -->
