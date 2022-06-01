@@ -38,6 +38,10 @@ openvpn3 configs-list
 openvpn3 session-start --persist-tun --config *.ovpn
 openvpn3 sessions-list
 ```
+para desconectarte
+```
+openvpn3 session-manage --disconnect --config
+```
 <br>
 
 > [source: OpenVPN3 documentation](https://community.openvpn.net/openvpn/wiki/OpenVPN3Linux/)
@@ -47,13 +51,13 @@ openvpn3 sessions-list
 3. script para ovpn at startup
 
 ```
-vi vpn_service.sh
-sudo cp vpn_service.sh /usr/bin/vpn_service.sh
+vi vpn_service.sh #poner comando para iniciar vpn 
+sudo mv vpn_service.sh /usr/bin/vpn_service.sh
 sudo chmod +x /usr/bin/vpn_service.sh
 ```
 Creamos un *"unit file"* que define un servicio simple. El punto importante es **ExecStart**.
 ```
-vi /lib/systemd/system/vpn_service.service
+#vi /lib/systemd/system/vpn_service.service
 ```
 ```
 [Unit] 
@@ -68,7 +72,8 @@ WantedBy=multi-user.target
 ```
 Una vez generado el archivo que define nuestro servicio simple, lo copiamos al directorio donde se ubican y desde el que se va a acceder a los servicios.
 ```
-sudo cp vpn_service.service /etc/systemd/system/vpn_service.service
+#sudo cp vpn_service.service /etc/systemd/system/vpn_service.service
+sudo vi /etc/systemd/system/vpn_service.service
 sudo chmod 644 /etc/systemd/system/vpn_service.service
 ```
 Por último tenemos que probar que el servicio funciona de verdad
