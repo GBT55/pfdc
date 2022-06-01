@@ -60,7 +60,8 @@ vi /lib/systemd/system/vpn_service.service
 Description=OPENVPN systemd service. 
 
 [Service] 
-Type=simple ExecStart=/bin/bash /usr/bin/vpn_service.sh 
+Type=simple 
+ExecStart=/bin/bash /usr/bin/vpn_service.sh 
 
 [Install] 
 WantedBy=multi-user.target
