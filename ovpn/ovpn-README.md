@@ -35,7 +35,7 @@ exit
 wormhole receive bar-foo
 openvpn3 config-import --persistent --config *.ovpn
 openvpn3 configs-list
-openvpn3 session-start -persist-tun --config *.ovpn
+openvpn3 session-start --persist-tun --config *.ovpn
 openvpn3 sessions-list
 ```
 <br>
